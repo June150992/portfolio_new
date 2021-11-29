@@ -212,7 +212,7 @@ cursor: pointer;
     line-height: 3.5rem;
     font-family: var(--main-font);
     color: #272727;
-    background-image: url("assets/images/bkimg_3.jpg");
+    background-image: url("assets/images/bkimg_2.jpg");
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -586,6 +586,7 @@ cursor: pointer;
 background-color: var(--accent-color);
 color: #fff;
 padding-bottom: 50px;
+min-height: 500px;
 }
 
 .image {
@@ -619,7 +620,7 @@ padding-bottom: 50px;
 
 #koncept {
   display: grid;
-  grid-template-columns: 1.3fr 2.5fr 1.5fr 2.5fr;
+  grid-template-columns: 1.5fr 2.5fr 1.8fr 2.5fr;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -627,7 +628,7 @@ padding-bottom: 50px;
 }
 
 .koncept_1 {
-  background-image: url('assets/images/App.png');
+  background-image: url('assets/images/app2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
