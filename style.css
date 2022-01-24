@@ -27,9 +27,9 @@ html {
     --second-font: 'Oswald', sans-serif;
     --main-font:'Abril Fatface', serif;
     --cursive-font: 'Amatic SC', cursive;
-    --big-font: 4em;
-    --medium-font: 3em;
-    --small-font: 2em;
+    --big-font: 3em;
+    --medium-font: 2em;
+    --small-font: 1em;
     --smaller-font: 1em;
     --padding: 2.5rem;
     --content-fit: 0 8% 0 8%;
@@ -231,16 +231,6 @@ cursor: pointer;
     font-size: var(--medium-font);
     font-weight: 600;
     text-transform: inherit;
-}
-
-.main h3 {
-    font-size: var(--small-font);
-    font-weight: 700;
-}
-
-.main h4 {
-    font-size: var(--small-font);
-    margin-top: 25px;
 }
 
 /***************************************** SCROLL DOWN ARROW **********************/
@@ -552,7 +542,7 @@ cursor: pointer;
 
 #about h1 {
   font-family: var(--main-font);
-  font-size: var(--small-font);
+  font-size: var(--medium-font);
   margin-bottom: 2rem;
 }
 
@@ -645,7 +635,7 @@ min-height: 500px;
 .hobbies h1 {
   padding-bottom: 30px;
   font-family: var(--main-font);
-  font-size: var(--small-font);
+  font-size: var(--medium-font);
 }
 
 .middle  {
@@ -737,7 +727,7 @@ transform: scale(1.1);
 }
 
 .projects h1 {
-  font-size: var(--small-font);
+  font-size: var(--medium-font);
   font-family: var(--main-font);
   margin-bottom: 2rem;
 }
@@ -749,7 +739,7 @@ background-color: rgb(39, 39, 39);
 
 .skills h1 {
   font-family: var(--main-font);
-  font-size: var(--small-font);
+  font-size: var(--medium-font);
   margin-bottom: 2rem;
 }
 
@@ -801,7 +791,7 @@ padding: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   font-family: var(--main-font);
-  font-size: var(--small-font);
+  font-size: var(--medium-font);
 }
 
 #footer .footer-content p {
