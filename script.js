@@ -86,13 +86,12 @@ function insertProjects() {
                         <p>${section.content.rendered}</p>
                         <div class="project_btns">
                         <button><a href="https://stellaatlantico.com/">Stella Atlántico</a></button>
-                        <button><a href="http://creativegamerstuff.dk/kea/sem3/14c.04.01_animation_project/">Death Note Tidslinje</a></button>
+                        <button><a href="https://bolighimlen.dk/">Bolighimlen</a></button>
                         <button><a href="http://creativegamerstuff.dk/kea/sem3/coloringbook/index.html">Disney Malebog</a></button>
                         <button><a href="http://creativegamerstuff.dk/kea/sem3/world-games-1.1/index.html">World Games Casino</a></button>
                         <button><a href="http://creativegamerstuff.dk/kea/sem2/kalklandet_main/index.html">Kalklandet</a></button>
-                        <button><a href="https://drive.google.com/file/d/1ONOhWtvVvDwpekdUhjQb6_GP8UZlYSsy/view?usp=sharing">Florist Lars Jon</a></button>
-                        <button><a href="http://creativegamerstuff.dk/kea/sem3/14c.01.05_gta_intro/index.html">GTA Intro Animation</a></button>
-                        <button><a href="http://creativegamerstuff.dk/kea/03%20animation/spil/index.html">Bloodmania Spil</a></button>
+                        <button><a href="http://creativegamerstuff.dk/kea/sem3/14c.01.05_gta_intro/index.html">CSS Animation Demo</a></button>
+                        <button><a href="http://creativegamerstuff.dk/kea/03%20animation/spil/index.html">Bloodmania Animation Demo</a></button>
                     </div>
                 </div>
             </div>

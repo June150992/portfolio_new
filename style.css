@@ -27,7 +27,7 @@ html {
     --second-font: 'Oswald', sans-serif;
     --main-font:'Abril Fatface', serif;
     --cursive-font: 'Amatic SC', cursive;
-    --big-font: 3em;
+    --big-font: 4em;
     --medium-font: 2em;
     --small-font: 1em;
     --smaller-font: 1em;
@@ -121,7 +121,7 @@ align-items: center;
 }
 
 .header_react {
-  padding-top: 23vh;
+  padding-top: 35vh;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -130,16 +130,15 @@ align-items: center;
 position: absolute;
 display: flex;
 flex-direction: column;
-text-align: center;
 margin: auto;
 height: 100vh;
 margin-left: 8vw;
-background: rgba(255, 255, 255, 0.877);
 }
 
 .header_content p {
-  font-family: var(--basic-font);
-  font-size: 1rem;
+  font-family: var(--cursive-font);
+  font-size: 1.5rem;
+  margin-left: 8vw;
 }
 
 .content {
@@ -210,27 +209,25 @@ cursor: pointer;
     height: 100vh;
     width: 100%;
     line-height: 3.5rem;
-    font-family: var(--main-font);
-    color: #272727;
-    background-image: url("assets/images/bkimg_3.jpg");
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: #ffffff;
     z-index: 1;
+    background-image: url("/assets/images/bkimg_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main h1 {
     margin-top: 35px;
     margin-bottom: 15px;
     font-size: var(--big-font);
+    font-family: var(--main-font);
     font-weight: 500;
 }
 
 .main h2 {
     margin-top: 15px;
     font-size: var(--medium-font);
-    font-weight: 600;
-    text-transform: inherit;
+    font-family: var(--cursive-font);
 }
 
 /***************************************** SCROLL DOWN ARROW **********************/
@@ -251,9 +248,9 @@ cursor: pointer;
     display: block;
     position: absolute;
     padding-top: 79px;
-    text-align: center;
+    text-align: left;
     top: 82%;
-    left: 25%;
+    right: 5vw;
   }
   .arrow-down {
     display: block;
@@ -570,6 +567,7 @@ cursor: pointer;
 
 #about_experience section {
   height: auto;
+  min-height: 90vh;
 }
 
 .first {
@@ -593,6 +591,7 @@ min-height: 500px;
     height: auto;
     margin-top: -50px;
     min-height: 570px;
+    padding-bottom: 50px;
  }
 
  .third h1 {
@@ -610,7 +609,7 @@ min-height: 500px;
 
 #koncept {
   display: grid;
-  grid-template-columns: 1.5fr 2.5fr 1.8fr 2.5fr;
+  grid-template-columns: 1.8fr 2.3fr 1.5fr 2.5fr;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -696,7 +695,7 @@ min-height: 500px;
 }
 
 .image_3 {
-  background-image: url("assets/images/me.png");
+  background-image: url("assets/images/mig-filter.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -983,7 +982,6 @@ padding: 15px 25px;
 
   #home .main {
   height: 95vh;
-  background-image: url('assets/images/mobile_view.jpg');
   }
 
   #about_experience {
@@ -1010,7 +1008,6 @@ padding: 15px 25px;
     padding-bottom: 20px;
     height: 50vh;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.822);
   }
 
   .header_react {
@@ -1018,13 +1015,14 @@ padding: 15px 25px;
   }
 
   .main h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 0px;
     margin-bottom: -50px;
   }
   .main h2 {
     font-size: 2rem;
     padding-bottom: 10px;
+    padding-top: 25px;
     margin-top: 0px;
   }
 
